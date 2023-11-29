@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head{
+    background-image: linear-gradient(aquamarine, aqua);
+    height: 100px;
+    width: 100%;
+}
+
+.head h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-style: italic;
+    padding-top: 15px;
+    padding-left: 40px;
+    color: #085552;
+}
+
+.head h2{
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    padding-top: 5px;
+    padding-left: 40px;
+    color: #085552;
+}
+
+.head h1 span{
+    font-size: 20px;
+}
+
+.head p{
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-top: 5px;
+    color: black;
+}
+
+.head div{
+    text-align: center;
+}
+
+.head div img{
+    border-radius: 80px;
+    margin-top: -50px;
+}
+
+.head .img1{
+    float: right;
+    padding-right: 350px;
+    cursor: pointer;
+}
+
+.head .img2{
+    float: right;
+    padding-right: 250px;
+    cursor: pointer;
+}
+
+.head .img3{
+    float: right;
+    margin-right: 150px;
+    cursor: pointer;
+}
+
+.head .summary{
+    display: flex;
+    width: 45%;
+    text-align: justify;
+}
+
+.head .sel1{
+    margin-left: 40px;
+    padding: 5px 12px 5px 12px;
+    border-radius: 10px;
+    background-color: rgb(204, 242, 242);
+    cursor: pointer;
+    border: 1px solid aquamarine;
+}
+
+.head .sel2{
+    margin-left: 15px;
+    padding: 5px 12px 5px 12px;
+    border-radius: 10px;
+    background-color: rgb(204, 242, 242);
+    cursor: pointer;
+    border: 1px solid aquamarine;
+}
+
+.head .sel3{
+    margin-left: 15px;
+    padding: 5px 12px 5px 12px;
+    border-radius: 10px;
+    background-color: rgb(204, 242, 242);
+    cursor: pointer;
+    border: 1px solid aquamarine;
+}
+
+.head button{
+    border-radius: 8px;
+    padding: 8px 20px 8px 20px;
+    background-color: rgb(214, 242, 242);
+    border: 1px solid aquamarine;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.head .btn{
+    margin-left: 10px;
+}
+
+.vl{
+    border-left: 4px solid #085552;
+    height: 560px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 160px;
+}
+
+.head2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 150px;
+    flex-wrap: wrap;
+}
+
+.head2 .edu{
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    padding-top: 55px;
+    padding-left: 40px;
+    color: #085552;
+}
+
+.head2 h2{
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    color: #085552;
+}
+
+.head2 p{
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 5px;
+    color: black;
+    width: 40%;
+    padding-left: 450px;
+    text-align: justify;
+    text-wrap: nowrap;
+}
+

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Zomato</title>
+</head>
+
+<body>
+    
+    <section id="head" class="header">
+        <div id="nav" class="navbar">
+            <img src="images/e!.png" alt="" height="50px" width="50px">
+                <div>
+                    <a href="#">Login</a>
+                    <button>Create an account</button>
+                </div>
+        </div>
+
+    </section>
+
+    <section id="mainbody" class="container">
+        <!--<h1>Breakfast Places in TamilNadu</h1>-->
+
+            <div class="container1">
+                <h4>Filters</h4>
+                <p>Set Location</p>
+
+                <input type="text" list="districts" name="dist" id="dist" placeholder="Select location--"/>
+
+                <datalist id="districts">
+
+                    <option value="Chennai"></option>
+                    <option value="Madurai"></option>
+                    <option value="Erode"></option>
+                    <option value="Coimbatore"></option>
+                    <option value="Salem"></option>
+                    <option value="Trichy"></option>
+                    <option value="Dindigul"></option>
+                    <option value="Theni"></option>
+                    <option value="Sivagangai"></option>
+                    <option value="Thirunelveli"></option>
+                    <option value="Tuticorin"></option>
+                    <option value="Kanyakumari"></option>
+
+                </datalist>
+
+                <p style="padding-top: 15px;">Cusine</p>
+                <div>
+                    <input type="checkbox">North Indian<br>
+                    <input type="checkbox">South Indian<br>
+                    <input type="checkbox">Chinese<br>
+                    <input type="checkbox">Fast Food<br>
+                    <input type="checkbox">Street Food<br>
+                </div>
+
+                <br>
+
+                <p>Cost for Two</p>
+                <div>
+                    <input type="radio" name="cost">Less than Rs.500<br>
+                    <input type="radio" name="cost">Rs.500 to Rs.1000<br>
+                    <input type="radio" name="cost">Rs.1000 to Rs.1500<br>
+                    <input type="radio" name="cost">Rs.1500 to Rs.2000<br>
+                    <input type="radio" name="cost">Rs.2000+<br>
+                </div>
+
+                <br>
+
+                <p>Sort</p>
+                <div>
+                    <input type="radio" name="Sort">Less than Rs.500<br>
+                    <input type="radio" name="Sort">Rs.500 to Rs.1000<br>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="container2">
+                <div class="content">
+                <img src="images/cake.avif" height="100px" width="100px">
+                <div>
+                    <h2>The Big CHill Cakery</h2>
+                    <h5>FORT</h5>
+                    <p>Shop 1, Plot D, Samruddhi Complex, Madurai</p>
+                    <hr>
+                    <p>Cuisines: Bakery </p>
+                    <p>Cost For Two: Rs. 700</p>
+                </div>
+                    
+                </div>
+
+                <br>
+
+                <div class="content">
+                    <img src="images/cake.avif" height="100px" width="100px">
+                    <div>
+                        <h2>The Bake Shop</h2>
+                        <h5>FORT</h5>
+                        <p>Shop 1, Plot D, Samruddhi Complex, Madurai</p>
+                        <hr>
+                        <p>Cuisines: Bakery </p>
+                        <p>Cost For Two: Rs. 700</p>
+                    </div>
+                </div>
+
+                <br><br>
+
+                <div id="pagination">
+                    <a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+
+            </div>
+    </section>
+
+    
+
+</body>
+
+</html>
